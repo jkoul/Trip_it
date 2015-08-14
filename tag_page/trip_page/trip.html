@@ -2,7 +2,8 @@
 <html>
 <head>
   <title>Roadtrip.pr</title>
-  <link href="css/styles.css" rel="stylesheet">
+  <!-- <link href="css/reset.css" rel="stylesheet"> -->
+  <link href="styles.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -13,27 +14,31 @@
       <div class="tab fastest">FASTEST</div>
       <div class="tab popular">POPULAR</div>
     </div>
-    <div class="trip-info">
-      <h2>Jersey Shore</h2>
-      <ul class="pics">
-        <li><img src=""></li>
-        <li><img src=""></li>
-        <li><img src=""></li>
-        <li><img src=""></li>
-        <li><img src=""></li>
-      </ul>
-      <ul class="details">
-        <li>9 hours</li>
-        <li>355 miles</li>
-        <li>3 stops:
-          <ul>
-            <li>Cape May Beaches</li>
-            <li>Ocean City Boardwalk</li>
-            <li>Pinball Museum</li>
-          </ul>
-        </li>
-      </ul>
+    <div class="trip-header">
+      <div class="trip-header-left">
+        <div class="trip-pop">
+          <img src='http://devcsi.ukoln.ac.uk/files/2012/06/fav2.png'/>
+           <span>40</span>
+        </div>
+        <img class="uparrow" src='http://d3n10rjdo8r0ep.cloudfront.net/assets/arrow-3ac37c6cf7fceca0b2aea70bf32e1f7c.png'/>
+      </div>
+      <div class="trip-header-right">
+        <h2>NATIONAL PARKS</h2>
+        <h3>"this is a description of national parks"</h3>
+      </div>
     </div>
-  </div>
+    <div class="pics">
+    </div>
+    <ul class="details">
+      <li>Trip Time: 9 hours</li>
+      <li id="stops">3 stops:
+        <ul>
+          <li>Chesapeake</li>
+          <li>Delaware Water Gap</li>
+          <li>New Jersey Pinelands</li>
+        </ul>
+      </li>
+      <li>355 miles</li>
+  </ul>
 </body>
 </html>
